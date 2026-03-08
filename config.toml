@@ -164,8 +164,8 @@ defaultContentLanguage = "en"
       photo = "https://github.com/user-attachments/assets/8c83de2e-e96c-4f03-b25b-b23ebccf328f"
       alt = "Pulpotomy of lower right D"
       description = "Pulpotomy of lower right D"
-      alt_ar = "Pulpotomy of lower right D"
-      description_ar = "Pulpotomy of lower right D"
+      alt_ar = "علاج لب ضرس D السفلي الأيمن"
+      description_ar = "علاج لب ضرس D السفلي الأيمن"
 
   [[params.clinical_cases]]
     enabled = true
@@ -176,15 +176,15 @@ defaultContentLanguage = "en"
       photo = "https://github.com/user-attachments/assets/44c9c0c9-667c-4b33-8427-81560c97855b"
       alt = "Endo upper left 6"
       description = "Endo upper left 6"
-      alt_ar = "Endo upper left 6"
-      description_ar = "Endo upper left 6"
+      alt_ar = "علاج عصب للضرس السادس العلوي الأيسر"
+      description_ar = "علاج عصب للضرس السادس العلوي الأيسر"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/1f43120f-57a8-4aa1-9b73-b5553dbe1e0a"
       alt = "Endo upper right 6"
       description = "Endo upper right 6"
-      alt_ar = "علاج عصب للضرس السادس علوي"
-      description_ar = "علاج عصب للضرس السادس علوي"
+      alt_ar = "علاج عصب للضرس السادس العلوي الأيمن"
+      description_ar = "علاج عصب للضرس السادس العلوي الأيمن"
 
   [[params.clinical_cases]]
     enabled = true
@@ -195,46 +195,48 @@ defaultContentLanguage = "en"
       photo = "https://github.com/user-attachments/assets/1af397f9-3413-4435-9a82-ea3f5c55d93b"
       alt = "Class 5 upper central"
       description = "Class 5 upper central"
-      alt_ar = "Class 5 upper central"
-      description_ar = "Class 5 upper central"
+      alt_ar = "حشو تجميلي من الدرجة الخامسة للقاطع المركزي العلوي"
+      description_ar = "حشو تجميلي من الدرجة الخامسة للقاطع المركزي العلوي"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/7458475f-8b2b-4007-a655-0c01f0179ccd"
       alt = "Class 3 back to back upper centrals"
       description = "Class 3 back to back upper centrals"
-      alt_ar = "Class 3 back to back upper centrals"
-      description_ar = "Class 3 back to back upper centrals"
+      alt_ar = "حشو تجميلي من الدرجة الثالثة متجاور للقواطع المركزية العلوية"
+      description_ar = "حشو تجميلي من الدرجة الثالثة متجاور للقواطع المركزية العلوية"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/19e549a1-c6ed-49bc-8f60-22de0d842f47"
       alt = "Class 1 lower 6"
       description = "Class 1 lower 6"
-      alt_ar = "Class 1 lower 6"
-      description_ar = "Class 1 lower 6"
+      alt_ar = "حشو تجميلي من الدرجة الأولى للضرس السادس السفلي"
+      description_ar = "حشو تجميلي من الدرجة الأولى للضرس السادس السفلي"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Fixed and endo"
-    category_ar = "Fixed and endo"
+    category = "Fixed"
+    category_ar = "التركيبات الثابتة"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/1bb25a18-4476-4ad7-b6a1-17dc587a3b98"
       alt = "Post and core for upper left canine after endo treatment"
       description = "Post and core for upper left canine after endo treatment"
-      alt_ar = "Post and core for upper left canine after endo treatment"
-      description_ar = "Post and core for upper left canine after endo treatment"
+      alt_ar = "تركيب وتكوين للنيابة بعد العلاج اللبي للناب العلوي الأيسر"
+      description_ar = "تركيب وتكوين للنيابة بعد العلاج اللبي للناب العلوي الأيسر"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Fixed"
-    category_ar = "Fixed"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e24a3125-6aff-4129-adaf-991ff17e18d3"
       alt = "Endocrown upper left 6"
       description = "Endocrown upper left 6"
-      alt_ar = "Endocrown upper left 6"
-      description_ar = "Endocrown upper left 6"
+      alt_ar = "تاج نهاية العلاج اللبي للضرس السادس العلوي الأيسر"
+      description_ar = "تاج نهاية العلاج اللبي للضرس السادس العلوي الأيسر"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ef9ee192-9346-4713-bbac-a879ab99159c"
+      alt = "Reduction of lower right 7"
+      description = "Reduction of lower right 7"
+      alt_ar = "تقليل حجم الضرس السابع السفلي الأيمن"
+      description_ar = "تقليل حجم الضرس السابع السفلي الأيمن"
 
   [[params.clinical_cases]]
     enabled = true
@@ -245,35 +247,23 @@ defaultContentLanguage = "en"
       photo = "https://github.com/user-attachments/assets/71572f57-c46b-4179-841e-cde4118beca5"
       alt = "Crown Lengthening upper left 7"
       description = "Crown Lengthening upper left 7"
-      alt_ar = "Crown Lengthening upper left 7"
-      description_ar = "Crown Lengthening upper left 7"
+      alt_ar = "إطالة التاج للضرس السابع العلوي الأيسر"
+      description_ar = "إطالة التاج للضرس السابع العلوي الأيسر"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/42d33dd4-da66-4fb7-be8c-b9d87db0e304"
       alt = "RR extraction lower 6"
       description = "RR extraction lower 6"
-      alt_ar = "RR extraction lower 6"
-      description_ar = "RR extraction lower 6"
+      alt_ar = "خلع ضرس السادس السفلي مع تعقيدات"
+      description_ar = "خلع ضرس السادس السفلي مع تعقيدات"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/6f9b8b7d-eef6-49b3-9397-43f7c82df83b"
       alt = "Upper 5 extraction"
       description = "Upper 5 extraction"
-      alt_ar = "Upper 5 extraction"
-      description_ar = "Upper 5 extraction"
+      alt_ar = "خلع الضرس الخامس العلوي"
+      description_ar = "خلع الضرس الخامس العلوي"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Fixed"
-    category_ar = "Fixed"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/ef9ee192-9346-4713-bbac-a879ab99159c"
-      alt = "Reduction of lower right 7"
-      description = "Reduction of lower right 7"
-      alt_ar = "Reduction of lower right 7"
-      description_ar = "Reduction of lower right 7"
-      
   # Contact Section
   [params.contact]
     phone = "01069381074"
