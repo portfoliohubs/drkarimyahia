@@ -1,0 +1,387 @@
+baseURL = "https://portfoliohubs.github.io/drkarimyahia/"
+languageCode = "en-us"
+title = "Dr. Karim Yahia"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Karim Yahia"
+    tagline = "Intern dentist"
+    graduation = "Graduated 2025 - Misr University for Sciences and Technology"
+    profile_image = "https://github.com/user-attachments/assets/7a5722d2-b84f-4eae-a297-d2586b4b9224"
+    profile_image_alt = "Profile photo of Dr. Karim Yahia"
+    
+    [params.hero.current_position]
+      role = "Intern dentist"
+      clinic = "Must University dental clinics"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Karim Yahia"
+    doctor_name_ar = "د. كريم يحيي"
+    site_name = "Dr. Karim Yahia"
+    og_image = "https://github.com/user-attachments/assets/4b85644f-5df7-4c88-9f63-291781af7061"
+    favicon_image = "https://github.com/user-attachments/assets/4b85644f-5df7-4c88-9f63-291781af7061"
+    twitter_handle = ""
+    keywords = [
+      "دكتور كريم يحيي",
+      "دكتور كريم يحيي لعلاج الأسنان",
+      "د كريم يحيي اسنان",
+      "Dr karim yahia",
+      "د كريم يحيي اسنان ماست",
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "endodontics",
+      "Misr University for Sciences and technology",
+      "DENTIST IN MUST UNIVERSITY",
+      "DENTAL CLINIC IN MUST UNIVERSITY",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "دكتور كريم يحيي",
+      "دكتور كريم يحيي لعلاج الأسنان",
+      "د كريم يحيي اسنان",
+      "Dr karim yahia",
+      "د كريم يحيي اسنان ماست",
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "علاج الجذور",
+      "جامعة مصر للعلوم والتكنولوجيا",
+      "طبيب في جامعة مصر",
+      "عيادة جامعة مصر",
+      "دكتور كريم يحيي",
+      "عيادة كريم يحيي",
+      "عيادة اسنان جامعة مصر",
+      "كريم يحيي اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Endo",
+      "Fixed",
+      "Pedo",
+      "Operative"
+    ]
+    
+    digital = [
+      "Power point"
+    ]
+    
+    soft = [
+      "Time management",
+      "Communication with patients",
+      "Dealing with patients"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Misr University for Sciences and technology"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+    
+    [params.education.phd]
+      obtained = false
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pediatrics"
+    category_ar = "الاطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/8c83de2e-e96c-4f03-b25b-b23ebccf328f"
+      alt = "Pulpotomy of lower right D"
+      description = "Pulpotomy of lower right D"
+      alt_ar = "Pulpotomy of lower right D"
+      description_ar = "Pulpotomy of lower right D"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "علاج الجذور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/44c9c0c9-667c-4b33-8427-81560c97855b"
+      alt = "Endo upper left 6"
+      description = "Endo upper left 6"
+      alt_ar = "Endo upper left 6"
+      description_ar = "Endo upper left 6"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1f43120f-57a8-4aa1-9b73-b5553dbe1e0a"
+      alt = "Endo upper right 6"
+      description = "Endo upper right 6"
+      alt_ar = "علاج عصب للضرس السادس علوي"
+      description_ar = "علاج عصب للضرس السادس علوي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "Operative"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1af397f9-3413-4435-9a82-ea3f5c55d93b"
+      alt = "Class 5 upper central"
+      description = "Class 5 upper central"
+      alt_ar = "Class 5 upper central"
+      description_ar = "Class 5 upper central"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7458475f-8b2b-4007-a655-0c01f0179ccd"
+      alt = "Class 3 back to back upper centrals"
+      description = "Class 3 back to back upper centrals"
+      alt_ar = "Class 3 back to back upper centrals"
+      description_ar = "Class 3 back to back upper centrals"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/19e549a1-c6ed-49bc-8f60-22de0d842f47"
+      alt = "Class 1 lower 6"
+      description = "Class 1 lower 6"
+      alt_ar = "Class 1 lower 6"
+      description_ar = "Class 1 lower 6"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed and endo"
+    category_ar = "Fixed and endo"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1bb25a18-4476-4ad7-b6a1-17dc587a3b98"
+      alt = "Post and core for upper left canine after endo treatment"
+      description = "Post and core for upper left canine after endo treatment"
+      alt_ar = "Post and core for upper left canine after endo treatment"
+      description_ar = "Post and core for upper left canine after endo treatment"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed"
+    category_ar = "Fixed"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e24a3125-6aff-4129-adaf-991ff17e18d3"
+      alt = "Endocrown upper left 6"
+      description = "Endocrown upper left 6"
+      alt_ar = "Endocrown upper left 6"
+      description_ar = "Endocrown upper left 6"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Surgery"
+    category_ar = "Surgery"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/71572f57-c46b-4179-841e-cde4118beca5"
+      alt = "Crown Lengthening upper left 7"
+      description = "Crown Lengthening upper left 7"
+      alt_ar = "Crown Lengthening upper left 7"
+      description_ar = "Crown Lengthening upper left 7"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/42d33dd4-da66-4fb7-be8c-b9d87db0e304"
+      alt = "RR extraction lower 6"
+      description = "RR extraction lower 6"
+      alt_ar = "RR extraction lower 6"
+      description_ar = "RR extraction lower 6"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6f9b8b7d-eef6-49b3-9397-43f7c82df83b"
+      alt = "Upper 5 extraction"
+      description = "Upper 5 extraction"
+      alt_ar = "Upper 5 extraction"
+      description_ar = "Upper 5 extraction"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed"
+    category_ar = "Fixed"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ef9ee192-9346-4713-bbac-a879ab99159c"
+      alt = "Reduction of lower right 7"
+      description = "Reduction of lower right 7"
+      alt_ar = "Reduction of lower right 7"
+      description_ar = "Reduction of lower right 7"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01069381074"
+    whatsapp = "01069381074"
+    email = "Elshikhkarim8@gmail.com"
+    instagram = ""
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "جامعه مصر للعلوم والتكنولوجيا عيادات الاسنان"
+      latitude = "30.642902685674002"
+      longitude = "31.32933812913433"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "كريم يحيي محمد محمد"
+    tagline = "طبيب اسنان امتياز"
+    graduation = "تخرج 2025 - جامعه مصر للعلوم والتكنولوجيا"
+    profile_image_alt = "صورة الملف الشخصي للدكتور كريم يحيي"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب اسنان امتياز"
+      clinic = "عيادات اسنان جامعه مصر للعلوم والتكنولوجيا"
+  
+[params.ar.skills]
+    clinical = [
+      "حشو تجميلي",
+      "حشو عصب",
+      "خلع عادي",
+      "تركيبات أطفال"
+    ]
+    
+    digital = [
+      "استخدام برنامج الباور بوينت"
+    ]
+    
+    soft = [
+      "اداره الوقت",
+      "التواصل مع المرضي والتعامل مع المرضي"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعه مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول للكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "جامعه مصر للعلوم والتكنولوجيا عيادات الاسنان"
+    google_maps_link = "https://maps.app.goo.gl/hqmHJc8EUzr5zFpr5"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
