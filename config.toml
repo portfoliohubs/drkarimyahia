@@ -282,7 +282,7 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "كريم يحيي محمد محمد"
+    name = "د. كريم يحيي محمد محمد"
     tagline = "طبيب اسنان امتياز"
     graduation = "تخرج 2025 - جامعه مصر للعلوم والتكنولوجيا"
     profile_image_alt = "صورة الملف الشخصي للدكتور كريم يحيي"
