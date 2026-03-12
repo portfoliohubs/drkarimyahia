@@ -267,7 +267,7 @@ defaultContentLanguage = "en"
   # Contact Section
   [params.contact]
     phone = "01069381074"
-    whatsapp = "01069381074"
+    whatsapp = "+201069381074"
     email = "Elshikhkarim8@gmail.com"
     instagram = ""
     facebook = ""
